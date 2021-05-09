@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "allowJs": false,
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "target": "ES2019"
+    // pixi end
+  },
+  "include": ["./src/**/*"]
+}
