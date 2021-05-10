@@ -1,18 +1,22 @@
 {
   "name": "ght",
   "version": "0.1.0",
-  "description": "Auto complete git commands and references",
+  "description": "git command parsing",
   "main": "./src/main.js",
   "scripts": {
-    "start": "concurrently -n \"watch,serve\" -c \"red,green\"  \"npm run watch\" \"npm run serve\"",
+    "start": "concurrently -n \"watch,test\" -c \"green,blue\"  \"npm run watch\" \"npm run test\"",
     "watch": "node esbuild.js",
-    "serve": "npx http-server ./  -o ./public"
+    "test": "jest --watch"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/jest": "^26.0.23",
     "concurrently": "^6.0.2",
     "esbuild": "^0.11.18",
-    "http-server": "^0.12.3"
-  }
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.6",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {}
 }
