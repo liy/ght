@@ -9,8 +9,7 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "noEmit": true,
-    "target": "ES2019"
-    // pixi end
+    "target": "ES2020"
   },
   "include": ["./src/**/*"]
 }
